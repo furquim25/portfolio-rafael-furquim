@@ -91,7 +91,7 @@ html, body{
 }
 
 section#inicio{
-    background-image: url("./img/background-home.png");
+    background-image: linear-gradient(0deg, rgba(58, 87, 126, 0.4), rgba(58, 87, 126, 0.5)), url("./img/mario-lofi.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
