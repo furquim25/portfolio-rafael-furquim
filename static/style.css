@@ -91,7 +91,7 @@ html, body{
 }
 
 section#inicio{
-    background-image: url("./img/mario-lofi.gif");
+    background-image: linear-gradient(0deg, rgba(58, 87, 126, 0.4), rgba(58, 87, 126, 0.5)), url("./img/mario-lofi.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -100,7 +100,14 @@ section#inicio{
     height: 100vh;
     position:relative;
     z-index: 9999;
+
 }
+
+@media (hover: none) {
+    section#inicio {
+        background-attachment: initial;
+    }
+ }
 
 section#inicio h2 {
     font-size: 4rem;
